@@ -1,8 +1,12 @@
+import Hero from './components/Hero'
+
 const App = () => {
   return (
     <main>
-      <h1 className="text-5xl font-bold text-orange-500">
-        Welcome to Awwwards
+      <h1 className="relative min-h-screen w-screen overflow-x-hidden">
+        <Hero />
+
+        <section className="z-0 min-h-screen bg-blue-500"></section>
       </h1>
     </main>
   )
