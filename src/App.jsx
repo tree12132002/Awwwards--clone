@@ -1,13 +1,13 @@
 import Hero from './components/Hero'
 import About from './components/About'
+import Navbar from './components/Navbar'
 
 const App = () => {
   return (
-    <main>
-      <h1 className="relative min-h-screen w-screen overflow-x-hidden">
-        <Hero />
-        <About />
-      </h1>
+    <main className="relative min-h-screen w-screen overflow-x-hidden">
+      <Navbar />
+      <Hero />
+      <About />
     </main>
   )
 }
